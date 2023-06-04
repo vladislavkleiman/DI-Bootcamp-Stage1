@@ -1,0 +1,251 @@
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+    img{
+    width: 300px;
+    height: 350px;
+    margin: 45px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+div {
+        width : 100%;
+        text-align: justify;
+        
+        
+    }
+ }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    img{
+    width: 300px;
+    height: 350px;
+    margin: 45px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+div {
+        width : 100%;
+        text-align: justify;
+        
+        
+    }
+ }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    img{
+    width: 300px;
+    height: 350px;
+    margin: 45px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+div {
+        width : 100%;
+        text-align: justify;
+        
+        
+    }
+ }
+
+@media all and (max-width: 480px) {
+    img{
+    width: 300px;
+    height: 350px;
+    margin: 45px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+div {
+        width : 100%;
+        text-align: justify;
+        
+        
+    }
+ }
+
+
+body {
+    background-color: black;
+}
+
+
+nav {
+    height: 20vh;
+    width: 70vw;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+
+ 
+a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Anton';
+    font-size: 250%;
+    color: white;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+a:after {
+    content: "";
+    position: absolute;
+    background-color: #8301a8;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #EDCE00;
+}
+
+a:hover:after{
+    width: 100%;
+}
+
+
+#menu {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    margin-right: 220px;
+    font-size: 250%;
+    font-family: 'Anton';
+}
+
+
+.home {
+    color: white;
+    font-size: 150%;
+    font-family: 'Anton';
+    text-align: center;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/894/554/384/kobe-bryant-desktop-wallpaper-preview.jpg);
+    background-size: cover;
+    background-size: 70%;
+    
+}
+
+#Home, #Biography, #Awards, #Iconic_person {
+    color: white;
+    font-size: 300%;
+    font-family: 'Anton';
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+
+.text{
+    text-align: justify;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+
+#topic {
+    font-family: 'Anton';
+    text-align: center;
+    background-image: url(topic.jpg);
+    background-size: 8%;
+    background-image: linear-gradient(30deg, #5401A0 30%, #8301a8 40%, #FFCC70 40%, #EDCE00 50%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 500%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+img{
+    width: 300px;
+    height: 350px;
+    margin: 45px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+#childhood, #sport, #olympic, #NBA, #american_championships, #personal {
+    font-family: 'Anton';
+    font-size: 200%;
+    color: white;
+    border-bottom: 2px solid white;
+    width: 400px;
+    letter-spacing: 0.5px;
+}
+
+.about_childhood, .sport, .motivation {
+    text-align: justify;
+    color: white;
+    font-size: 150%;
+    font-family: 'Anton';
+    letter-spacing: 0.5px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    font-family: 'Anton';
+    letter-spacing: 0.5px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+
+}
+
+#Kobe_young, #Kobe_sport, #Kobe_aw {
+    float: right;
+}
+
+.video {
+    text-align: center;
+}
+
+
+#aw_olympic {
+    list-style: none;
+    color: white;
+    font-size: 180%;
+    font-family: 'Anton';
+    letter-spacing: 0.5px;
+}
+
+.Iconic_person {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/297/754/334/kobe-bryant-for-desktop-background-wallpaper-preview.jpg);
+    background-size: cover;
+}
+
+.motivation {
+    color: yellow;
+    text-shadow: 4px 4px 4px purple;
+    letter-spacing: 0.5px;
+}
